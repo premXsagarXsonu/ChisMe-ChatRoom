@@ -17,34 +17,3 @@ app.use("/chatroom", require("./routes/chatroom"));
 module.exports = app;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*const errorhandlers = require("./handlers/errorHanders");
-app.use(errorhandlers.notFound);
-app.use(errorhandlers.mongooseErrors);
-if(process.env.ENV === "DEVELOPMENT"){
-    app.use(errorhandlers.DevelopmentErrors)
-}else{
-    app.use(errorhandlers.propductionErrors);
-}
-*/
